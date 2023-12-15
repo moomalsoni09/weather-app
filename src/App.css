@@ -1,38 +1,80 @@
-.App {
+.body{
+  background-image: url(./pexels-rahul-pandit-2086748.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.heading{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  border-radius: 8px;
+  margin: 16px;
+  width: 25rem;
+  height: 35rem;
+  margin-left: 34.5rem;
+  margin-top: 2rem;
+  background-color: #fcf8f8;
+  opacity: 0.6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  border: 1px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input{
+  width: 17rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.error{
+  margin-left: 8rem;
+  color: red;
+}
+.loader{
+  margin-left: 10rem;
+  margin-top: 0.5rem;
+}
+.location{
+  /* margin-left: 8rem; */
+  font-size: 1.2rem;
+  text-align: center;
+}
+.image{
+  margin-left: 5rem;
+  margin-top: -4rem;
+}
+.description{
+  text-align: center;
+  margin-top: -4rem;
+  font-style:normal;
+}
+.temp{
+  text-align: center;
+  font-size: 4.5rem;
+  margin-top: 0rem;
+}
+.temp-two{
+  text-align: center;
+  margin-top: -4rem;
+  font-size: small;
+  font-weight:600;
+}
+.big-container{
+  margin-top: 2rem;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 20rem;
+  margin-left: 2.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  font-weight:700;
+}
+.small-container1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.small-container2{
+  display: flex;
+  justify-content:space-evenly;
 }
