@@ -1,11 +1,11 @@
 .body{
   background-image: url(./pexels-rahul-pandit-2086748.jpg);
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  height: 239%;
-  width: 235%;
+  /* position: absolute; */
+  /* height: 239%;
+  width: 235%; */
 }
 .heading{
   font-size: 32px;
